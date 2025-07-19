@@ -189,17 +189,17 @@ function App() {
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
-                  Z
+                  J
                 </div>
                 <div className="ml-4">
-                  <h3 className="font-semibold text-gray-900">Zoheb</h3>
+                  <h3 className="font-semibold text-gray-900">Jitesh</h3>
                   <div className="flex text-yellow-400">
                     {'★'.repeat(5)}
                   </div>
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "Saurav's Python and AI course completely changed my career trajectory. His teaching style is incredibly clear, and the hands-on projects gave me the confidence to land my dream job as a Machine Learning Engineer."
+                "Saurav's Python and AI course completely changed my career trajectory. His teaching style is incredibly clear, and the hands-on projects gave me the confidence to build modern AI models."
               </p>
               <div className="text-sm text-gray-500">
                 <span className="font-medium">Course:</span> Python & AI Fundamentals
@@ -220,7 +220,7 @@ function App() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "As a complete beginner, I was intimidated by programming. Saurav's C++ course broke everything down perfectly. Now I'm confidently building applications and even got promoted at work!"
+                "As a complete beginner, I was intimidated by programming. Saurav's C++ course broke everything down perfectly. Now I'm confidently building applications and even got good ratings at school!"
               </p>
               <div className="text-sm text-gray-500">
                 <span className="font-medium">Course:</span> C++ Programming Mastery
@@ -277,7 +277,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg" 
+                src="./instructor.png" 
                 alt="Professional instructor teaching technology"
                 className="rounded-xl shadow-lg w-full h-96 object-cover"
               />
@@ -336,7 +336,7 @@ function App() {
                 <a href="mailto:sauravmukherjee928@gmail.com" className="text-blue-600 hover:text-blue-700 font-medium">
                   📧 sauravmukherjee928@gmail.com
                 </a>
-                <a href="tel:+917667133539" className="text-blue-600 hover:text-blue-700 font-medium">
+                <a href="https://wa.me/917667133539" className="text-blue-600 hover:text-blue-700 font-medium">
                   📞 +91 7667133539 (Whatsapp)
                 </a>
               </div>
