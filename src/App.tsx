@@ -277,7 +277,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="./instructor.png" 
+                src="/instructor.png" 
                 alt="Professional instructor teaching technology"
                 className="rounded-xl shadow-lg w-full h-96 object-cover"
               />
