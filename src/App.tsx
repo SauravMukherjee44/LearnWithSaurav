@@ -320,8 +320,12 @@ function App() {
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">Student Inquiry Form</h3>
               <p className="text-gray-600">Tell me about your learning goals and I'll recommend the perfect course for you.</p>
             </div>
+            <div className="bg-white rounded-lg p-6 min-h-96 border-2 border-dashed border-gray-300 flex items-center justify-center">
+              
+               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd6q231d2-tmW8r1KXCz6D9BVJT3EQBBZgLp22ZDX9RbfPrbQ/viewform?embedded=true" width="640" height="961" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
             
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd6q231d2-tmW8r1KXCz6D9BVJT3EQBBZgLp22ZDX9RbfPrbQ/viewform?embedded=true" width="640" height="961" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+           
             
             {/* Alternative contact information */}
             <div className="mt-8 text-center">
