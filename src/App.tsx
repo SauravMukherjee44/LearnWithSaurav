@@ -1,6 +1,5 @@
 import React from 'react';
-import { Code, Brain, Database, Globe, Users, Award, BookOpen, Zap } from 'lucide-react';
-
+import { Code, Brain, Database, Globe, Users, Award, BookOpen, Zap, CheckCircle, Trophy, Medal, FileText, Star, Shield } from 'lucide-react';
 function App() {
   return (
     <div className="min-h-screen bg-white">
@@ -25,6 +24,8 @@ function App() {
         </div>
       </nav>
 
+
+      
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -170,6 +171,223 @@ function App() {
                     <p className="text-gray-600 text-sm">Create modern, responsive web applications</p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Certification & Testing Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900">Prepare for Industry Certifications</h2>
+            <p className="text-xl text-gray-600 mt-4">Get ready for prestigious tech company certifications with comprehensive preparation</p>
+          </div>
+          
+          {/* Main Preparation Process */}
+          <div className="grid lg:grid-cols-3 gap-8 mb-16">
+            <div className="text-center">
+              <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <BookOpen className="h-10 w-10 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Comprehensive Training</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Master the exact skills and knowledge required for major tech company certifications through structured learning paths.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <FileText className="h-10 w-10 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Mock Exams</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Practice with realistic mock exams that simulate actual certification tests from Google, Microsoft, AWS, and other tech giants.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Award className="h-10 w-10 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Certification Success</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Achieve success in official tech company certifications with confidence, backed by thorough preparation and expert guidance.
+              </p>
+            </div>
+          </div>
+
+          {/* Preparation Features */}
+          <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl p-8 mb-16">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-6">Why Choose Our Certification Prep?</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Official Exam Alignment</h4>
+                      <p className="text-gray-600">Curriculum perfectly aligned with official certification exam objectives and requirements</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <Zap className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Latest Exam Updates</h4>
+                      <p className="text-gray-600">Stay current with the latest exam changes and updated question patterns from tech companies</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <Trophy className="h-6 w-6 text-yellow-600 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold text-gray-900">High Success Rate</h4>
+                      <p className="text-gray-600">95% of our students pass their target certifications on the first attempt</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <Users className="h-6 w-6 text-purple-600 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Expert Mentorship</h4>
+                      <p className="text-gray-600">Get guidance from certified professionals who have successfully passed these exams</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="relative">
+                <img 
+                  src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" 
+                  alt="Students preparing for tech certifications"
+                  className="rounded-xl shadow-lg w-full h-80 object-cover"
+                />
+                <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-xl shadow-lg">
+                  <div className="flex items-center space-x-2">
+                    <Trophy className="h-6 w-6 text-yellow-500" />
+                    <span className="font-semibold text-gray-800">Exam Ready</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Target Certifications */}
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-bold text-gray-900 mb-8">Target Certifications We Prepare You For</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Google Cloud */}
+              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-green-500 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-lg">GCP</span>
+                  </div>
+                </div>
+                <h4 className="font-bold text-gray-900 text-lg mb-2">Google Cloud</h4>
+                <div className="space-y-1 text-sm text-gray-600">
+                  <p>• Professional Cloud Architect</p>
+                  <p>• Professional Data Engineer</p>
+                  <p>• Professional ML Engineer</p>
+                </div>
+              </div>
+
+              {/* AWS */}
+              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-yellow-500 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-lg">AWS</span>
+                  </div>
+                </div>
+                <h4 className="font-bold text-gray-900 text-lg mb-2">Amazon AWS</h4>
+                <div className="space-y-1 text-sm text-gray-600">
+                  <p>• Solutions Architect Associate</p>
+                  <p>• Developer Associate</p>
+                  <p>• SysOps Administrator</p>
+                </div>
+              </div>
+
+              {/* Microsoft Azure */}
+              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">Azure</span>
+                  </div>
+                </div>
+                <h4 className="font-bold text-gray-900 text-lg mb-2">Microsoft Azure</h4>
+                <div className="space-y-1 text-sm text-gray-600">
+                  <p>• Azure Fundamentals (AZ-900)</p>
+                  <p>• Azure Developer Associate</p>
+                  <p>• Azure Administrator Associate</p>
+                </div>
+              </div>
+
+              {/* Oracle */}
+              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-br from-red-600 to-orange-600 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">Oracle</span>
+                  </div>
+                </div>
+                <h4 className="font-bold text-gray-900 text-lg mb-2">Oracle</h4>
+                <div className="space-y-1 text-sm text-gray-600">
+                  <p>• Java SE 11 Developer</p>
+                  <p>• Database Administrator</p>
+                  <p>• MySQL Database Administrator</p>
+                </div>
+              </div>
+
+              {/* TensorFlow */}
+              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-yellow-500 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-xs">TensorFlow</span>
+                  </div>
+                </div>
+                <h4 className="font-bold text-gray-900 text-lg mb-2">TensorFlow</h4>
+                <div className="space-y-1 text-sm text-gray-600">
+                  <p>• TensorFlow Developer Certificate</p>
+                  <p>• Machine Learning Specialist</p>
+                  <p>• AI/ML Professional</p>
+                </div>
+              </div>
+
+              {/* CompTIA & Cisco */}
+              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-br from-blue-700 to-green-600 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-xs">CompTIA</span>
+                  </div>
+                </div>
+                <h4 className="font-bold text-gray-900 text-lg mb-2">CompTIA & Cisco</h4>
+                <div className="space-y-1 text-sm text-gray-600">
+                  <p>• CompTIA Network+</p>
+                  <p>• CompTIA Security+</p>
+                  <p>• Cisco CCNA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Preparation Process */}
+          <div className="bg-white border border-gray-200 rounded-2xl p-8">
+            <h3 className="text-3xl font-bold text-gray-900 text-center mb-8">Preparation Process</h3>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-blue-600 font-bold text-lg">1</span>
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-2">Study Materials</h4>
+                <p className="text-gray-600 text-sm">Comprehensive study guides, video lectures, and practice materials aligned with exam objectives</p>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-purple-600 font-bold text-lg">2</span>
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-2">Practice Tests</h4>
+                <p className="text-gray-600 text-sm">Realistic mock exams with detailed explanations and performance analytics</p>
+              </div>
+              <div className="text-center">
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-green-600 font-bold text-lg">3</span>
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-2">Exam Strategy</h4>
+                <p className="text-gray-600 text-sm">Test-taking strategies, time management, and final review sessions before the official exam</p>
               </div>
             </div>
           </div>
