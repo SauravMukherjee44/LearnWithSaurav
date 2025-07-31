@@ -745,7 +745,7 @@ function LandingPage() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">About Saurav Mukherjee</h2>
               <p className="text-lg text-gray-600 mb-6">
-                As an experienced AI Engineer with over 8 years in the industry, I've worked with leading tech companies 
+                As an experienced AI Engineer with over 5 years in the industry, I've worked with leading tech companies 
                 and startups, developing cutting-edge AI solutions and mentoring hundreds of aspiring developers.
               </p>
               <p className="text-lg text-gray-600 mb-8">
